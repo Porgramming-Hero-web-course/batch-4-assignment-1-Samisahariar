@@ -13,11 +13,7 @@
                 arrayresult.push(0)
             }
         })
-        if (arrayresult.indexOf(1) !== -1) {
-            console.log(1)
-        } else {
-            console.log(0)
-        }
+        console.log(arrayresult.reduce((prev, curr) => prev + curr, 0))
     }
 
 
