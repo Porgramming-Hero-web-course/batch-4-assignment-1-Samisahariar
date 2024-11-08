@@ -1,4 +1,3 @@
--------------------Blog-2--------------------
 we can handle asynchronus operation by using Promise and the async/await function.like =
 
 
