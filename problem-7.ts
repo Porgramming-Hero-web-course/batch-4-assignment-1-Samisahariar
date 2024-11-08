@@ -12,7 +12,7 @@
         }
 
         getCarAge() {
-            console.log(`${2024 - this.year} (assuming the current year 2024)`)
+            console.log(`${2024 - this.year} (assuming the current year ${2024})`)
         }
 
     }

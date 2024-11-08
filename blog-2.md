@@ -25,7 +25,7 @@ const createingAPromise = () : Promise<type> =>{
     })
 }
 
-this async/await is for the modern era javascript where as Promise is an older version of the javascript. nowdays, async/await operation is widely used cause it needed lesser code to write over the Promise . and it is reliable to fetchdata
+this async/await is for the modern era javascript where as Promise is an older version of the javascript. nowdays, async/await operation is widely used cause it needed lesser code to write over the Promise . and it is reliable to fetchdata.async is better for debugging and error handling compare to Promise.
 
 
 
