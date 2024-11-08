@@ -12,7 +12,20 @@ const getdataAsync = async(): Promise<OutPuttype> =>{
     return await data
 }
 
-From this getdataAsync function we can wait untill the is not received from the sever .if we dont not use the async/await the function will run through without waiting data to receive . and the promise determines there is something data to receive from this function. for asynchronus operation we should use the async/await and the promise . 
+where as in Promise : 
+
+const createingAPromise = () : Promise<type> =>{
+    return new Promise<type>((resolve, reject) =>{
+        let data : type
+        if(data){
+            resolve(data)
+        }else{
+            reject("failed to load the data")
+        }
+    })
+}
+
+this async/await is for the modern era javascript where as Promise is an older version of the javascript. nowdays, async/await operation is widely used cause it needed lesser code to write over the Promise . and it is reliable to fetchdata
 
 
 
